@@ -1,9 +1,9 @@
-# Delidel WhatsApp Bot — Production LangChain Edition
+#  WhatsApp Bot — Production LangChain Edition
 
 ## Architecture
 
 ```
-delidel_bot/
+Whatsapp_bot/
 ├── app.py                      # Flask entrypoint
 ├── requirements.txt
 ├── config/
@@ -74,11 +74,11 @@ User Message
 
 ```bash
 GROQ_API_KEY=gsk_...
-PRESTA_BASE_URL=https://stguae.delidel.in
+PRESTA_BASE_URL=https://stguae.Whatsapp.in
 PRESTA_API_KEY=JNtNqBDMW8...
 OGA_CRM_BASE_URL=https://crm.ogaapps.in
 OGA_CRM_BEARER_TOKEN=sk_live_...
-OGA_CRM_INSTANCE_NAME="Delidel Support"
+OGA_CRM_INSTANCE_NAME="Whatsapp Support"
 REDIS_URL=https://true-giraffe-...upstash.io
 REDIS_TOKEN=gQAAAA...
 VERIFY_TOKEN=EAALSHl...

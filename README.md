@@ -58,9 +58,9 @@ User Message
 
 | Tool | Endpoint | Method | Purpose |
 |------|----------|--------|---------|
-| `search_products` | `/module/ogachatbotapi/ogachatbotapi?action=getproductdetails` | GET | Price + stock lookup |
-| `validate_cart` | `/module/ogachatbotapi/ogachatbotapi` action=validate_cart | POST | Validate cart + get total |
-| `place_order_via_module` | `/module/ogachatbotapi/ogachatbotapi` action=place_order | POST | Place order from session cart |
+| `search_products` | `?action=getproductdetails` | GET | Price + stock lookup |
+| `validate_cart` | `` action=validate_cart | POST | Validate cart + get total |
+| `place_order_via_module` | `` action=place_order | POST | Place order from session cart |
 | `get_customer_by_phone` | `/api/addresses?filter[phone]=...` | GET | Link phone → customer |
 | `get_customer_addresses` | `/api/addresses?filter[id_customer]=...` | GET | Get delivery address |
 | `create_presta_cart` | `/api/carts` | POST (XML) | Create cart directly in PS |
@@ -74,16 +74,16 @@ User Message
 
 ```bash
 GROQ_API_KEY=gsk_...
-PRESTA_BASE_URL=https://stguae.Whatsapp.in
+PRESTA_BASE_URL=
 PRESTA_API_KEY=JNtNqBDMW8...
-OGA_CRM_BASE_URL=https://crm.ogaapps.in
+OGA_CRM_BASE_URL=
 OGA_CRM_BEARER_TOKEN=sk_live_...
-OGA_CRM_INSTANCE_NAME="Whatsapp Support"
-REDIS_URL=https://true-giraffe-...upstash.io
-REDIS_TOKEN=gQAAAA...
-VERIFY_TOKEN=EAALSHl...
-PHONE_NUMBER_ID=877429722112368
-ALLOWED_NUMBERS=9354906215,9759145356,7988149282
+OGA_CRM_INSTANCE_NAME=
+REDIS_URL=
+REDIS_TOKEN=...
+VERIFY_TOKEN=...
+PHONE_NUMBER_ID=
+ALLOWED_NUMBERS=
 ```
 
 ## Install & Run

@@ -1,5 +1,5 @@
 """
-LangChain @tools — one tool per discrete operation.
+LangChain @tools — one tool per discrete operation
 The chain (not an agent) calls these explicitly based on intent.
 """
 

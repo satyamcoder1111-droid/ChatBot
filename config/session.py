@@ -1,6 +1,6 @@
 """
 Session management — stores full conversation state per customer.
-State includes: chat history, cart contents, last product, order stage.
+State includes: chat history, cart contents, last product, order stage
 """
 
 import json
